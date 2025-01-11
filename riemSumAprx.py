@@ -5,7 +5,7 @@ using a Riemann Sum.
 
 (1)import np and plt  (2)what the f is    (3)bounds, limits, delta x
 (4)y in terms of x    (5)compute the sum  (6)build the plane, plot the graph
-(7)add the rectangles (8)label and fill the graph
+(7)add the rectangles (8)fill the graph   (9)print
 """
 
 #(1)import np and plt
@@ -47,6 +47,6 @@ plt.xlabel("x")
 plt.ylabel("y")
 plt.title("Riemann Sum of f(x) = sin(x)")
 
+#(9)print
 print("A = ", area)
 plt.show()
-
