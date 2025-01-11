@@ -41,7 +41,7 @@ for i in range(n):
     yRect = [0, y[i], y[i], 0]
     plt.fill(xRect, yRect, color='lightblue', alpha=0.5, edgecolor='black')
 
-#(8)label and fill the graph
+#(8)fill the graph
 plt.grid(True)
 plt.xlabel("x")
 plt.ylabel("y")
