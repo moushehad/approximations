@@ -13,7 +13,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #(2)what the f is
-def f(x): #func takes parameter x, needs return
+def f(x): 
     return np.sin(x)
 
 #(3)bounds, limits, delta x
